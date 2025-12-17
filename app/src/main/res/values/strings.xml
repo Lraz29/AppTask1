@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppTask1</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+</resources>
