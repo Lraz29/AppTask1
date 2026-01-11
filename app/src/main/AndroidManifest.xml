@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.VIBRATE" />
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -14,15 +16,24 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.AppTask1">
         <activity
-            android:name="com.example.apptask1.MainActivity"
-            android:exported="true">
+            android:name="com.example.apptask1.MenuActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <activity
+            android:name="com.example.apptask1.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.apptask1.ScoresActivity"
+            android:exported="false" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_KEY_HERE"/>
     </application>
 
 </manifest>
