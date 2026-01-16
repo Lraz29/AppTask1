@@ -2,4 +2,6 @@
     <string name="app_name">AppTask1</string>
     <string name="left">Left</string>
     <string name="right">Right</string>
+    <string name="title_activity_test_maps">TestMapsActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

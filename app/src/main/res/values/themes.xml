@@ -3,17 +3,17 @@
 
     <!-- Normal app theme -->
     <style name="Theme.AppTask1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- your colors if needed -->
+
     </style>
 
-    <!-- Splash theme (Logo screen) -->
+
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@android:color/black</item>
 
-        <!-- IMPORTANT: no android: prefix -->
+
         <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
 
-        <!-- make it longer so you can SEE it while testing -->
+
         <item name="windowSplashScreenAnimationDuration">1500</item>
 
         <item name="postSplashScreenTheme">@style/Theme.AppTask1</item>
