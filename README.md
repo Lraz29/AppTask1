@@ -1,4 +1,4 @@
-# AppTask1 – Android Game Project
+# LaneRunner-KotlinGame
 
 ## Overview
 This project is an Android game developed as part of an academic assignment.
